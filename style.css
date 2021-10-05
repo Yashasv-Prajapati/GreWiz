@@ -1,0 +1,37 @@
+
+#my-name {
+  animation: TransitionX 0.75s;
+  font-weight: bold;
+}
+
+#opening-page-home{
+    animation: TransitionIn 0.75s;
+
+}
+
+#contacts{
+    animation: TransitionIn 0.75s;
+}
+
+@keyframes TransitionX {
+  from {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes TransitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-5deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
